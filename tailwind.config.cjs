@@ -4,7 +4,13 @@ content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],  theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#3CDBBF",
+        // primaryFont: "nunito",
+        // secondaryFont: "poppins"
+      }
+    },
   },
   plugins: [],
 }
