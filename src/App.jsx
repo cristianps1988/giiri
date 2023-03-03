@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Main from "./components/Main";
-import Section from "./components/Section";
+import HowSection from "./components/HowSection";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Main />
-      <Section />
+      <HowSection />
     </div>
     
   )
