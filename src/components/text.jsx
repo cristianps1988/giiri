@@ -18,7 +18,7 @@ export const text = {
     joinHeading: 'Únete hoy!',
     joinText: '¿Quieres comenzar a ahorrar e invertir de manera inteligente? Únete a Giiri hoy y descubre cómo puedes hacerlo. Nuestra plataforma es segura y fácil de usar, y te permite controlar completamente tu dinero. ¡Regístrate ahora y comienza a ahorrar!',
     copy: '© Copyright 2023, All Rights Reserved by Giiri',
-    logoA: 'logo.png',
+    logoA: '/assets/logo.png',
     heroImg: '/public/hero.png',
     video: '/public/video.png',
     menImg: '/public/men.png',
