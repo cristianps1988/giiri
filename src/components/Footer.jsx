@@ -11,16 +11,16 @@ const Footer = () => {
         </div>
       <div className='flex flex-row mx-auto lg:mr-8 lg:-mt-16'>
         <a href="#" className='lg:w-full lg:h-full px-4 lg:px-6'>
-            <img src={facebook} alt="facebook" className=''/>
+            <img src={facebook} alt="facebook" className='w-[30px] h-[30px] lg:w-[60px] lg:h-[60px]'/>
         </a>
         <a href="#" className='lg:w-full lg:h-full px-4 lg:px-6'>
-            <img src={tiktok} alt="tiktok" className=''/>
+            <img src={tiktok} alt="tiktok" className='w-[30px] h-[30px] lg:w-[60px] lg:h-[60px]'/>
         </a>
         <a href="#" className='lg:w-full lg:h-full px-4 lg:px-6'>
-            <img src={instagram} alt="instagram" className=''/>
+            <img src={instagram} alt="instagram" className='w-[30px] h-[30px] lg:w-[60px] lg:h-[60px]'/>
         </a>
       </div>
-      <p className='text-white text-xs mt-2 lg:text-2xl text-center lg:text-left lg:ml-8 lg:-mt-2'>{copy}</p>
+      <p className='font-pop text-white text-xs mt-4 lg:text-2xl text-center lg:text-left lg:ml-8 lg:-mt-2'>{copy}</p>
     </div>
   )
 }

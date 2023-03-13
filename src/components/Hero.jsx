@@ -15,6 +15,9 @@ const Hero = () => {
             <img src={heroImg} alt="hero" className='w-3/5 md:w-full ml-15 mt-9 md:m-0' />
         </div>
         <button className='text-sm text-black bg-primary inline-block w-32 py-1 mx-auto mt-8 rounded-2xl lg:hidden'>{registerBtn}</button>
+        <div className='h-96 w-48 lg:h-[40rem] lg:w-200 rotate-45 lg:-rotate-45 rounded-full bg-primary -z-30 absolute -top-20 -right-20 lg:-top-[25rem] lg:-right-[15rem]'></div>
+        <div className='h-52 w-52 lg:h-96 lg:w-96 bg-glass absolute -top-30 -right-5 md:top-[80px] lg:right-20 lg:-top-20  backdrop-blur-xl lg:backdrop-blur-3xl rounded-full -z-20'></div>
+        <div className='h-200 w-48 lg:h-[25rem] lg:w-200 -rotate-[61deg] lg:rotate-[40deg] rounded-full bg-secondary -z-30 absolute -top-[14rem] -left-64 lg:top-[20rem] lg:-left-[35rem]'></div>
     </div>
     
   )

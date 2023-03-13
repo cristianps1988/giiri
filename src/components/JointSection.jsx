@@ -10,8 +10,9 @@ const JointSection = () => {
         <button className='mt-32 lg:mt-20 text-xl lg:text-3xl text-black bg-primary py-1 px-10 rounded-2xl lg:rounded-3xl mx-auto'>{registerBtn}</button>
         <div>
             <img src={girlImg} alt="girl img" className='hidden lg:inline absolute top-40 right-0'/>
-            <img src={girlBImg} alt="girl img" className='lg:hidden -z-10 absolute top-32'/>
+            <img src={girlBImg} alt="girl img" className='lg:hidden -z-10 absolute top-32 -left-4'/>
         </div>
+        <div className='absolute hidden lg:block h-[40rem] w-[100rem] rotate-45 rounded-full bg-secondary -z-30 -top-[10rem] -left-[60rem]'></div>
     </div>
   )
 }
