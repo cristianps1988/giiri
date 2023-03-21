@@ -20,6 +20,8 @@ export const text = {
     copy: '© Copyright 2023, All Rights Reserved by Giiri',
     logoA: 'logo.png',
     heroImg: 'hero.png',
+    heroImgWebp: 'hero.webp',
+    heroImgAvif: 'hero.avif',
     video: 'video.png',
     menImg: 'men.png',
     girlImg: 'girl.png',

@@ -7,13 +7,13 @@ const HowSection = () => {
     <div className='w-11/12 mx-auto lg:mt-36 flex flex-col relative'>
       <div className='flex flex-col lg:flex-row-reverse'>
         <p className='text-5xl my-8 lg:text-7xl text-primary font-bold text-center lg:w-96 lg:my-auto'>{howHeading}</p>
-        <img src={video} alt="video" className='lg:mx-auto'/>
+        <img src={video} alt="video" className='lg:mx-auto 2xl:w-[70rem] '/>
       </div>
 
       <div className='w-9/12 mx-auto text-xl lg:text-2xl mt-8 lg:mt-40'>
 
         <div className='flex flex-col lg:flex-row lg:text-center justify-between relative'>
-          <div className='absolute m-0 p-0 bg-primary h-1 w-[250px] lg:h-2 lg:w-[800px] -z-50 rotate-90 lg:rotate-0 -left-[105px] top-[145px] lg:top-[45px] lg:left-[75px] '></div>
+          <div className='absolute m-0 p-0 bg-primary h-1 w-[250px] lg:h-2 lg:w-[800px] 2xl:w-[75rem] -z-50 rotate-90 lg:rotate-0 -left-[105px] top-[145px] lg:top-[45px] lg:left-[75px] '></div>
           <div className='flex flex-row py-3 lg:flex-col'>
             <div className='relative bg-primary w-[40px] h-[40px] lg:w-[80px] lg:h-[80px] rounded-full lg:mx-auto'>
               <div className='absolute bg-white w-[13px] lg:w-[26px] h-[4px] lg:h-[8px] rotate-45 top-[22px] lg:top-[44px] left-[8px] lg:left-[16px]'></div>
