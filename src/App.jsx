@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div >
-      <Header />
+    <div className="overflow-x-hidden">
+      <Header  />
       <Hero />
       <Main />
       <HowSection />
