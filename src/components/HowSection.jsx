@@ -58,7 +58,9 @@ const HowSection = () => {
         </div>
     
       </div>
-      <button className='mt-8 lg:mt-20 text-xl lg:text-3xl text-white bg-primary py-1 px-10 rounded-2xl lg:rounded-3xl mx-auto'>{startBtn}</button>
+      <button className='mt-8 lg:mt-20 text-xl lg:text-3xl text-white bg-primary py-1 px-10 rounded-2xl lg:rounded-3xl mx-auto'>
+      <a target='_blank' rel="noopener noreferrer" href="https://airtable.com/shrAZtJGPWUixTGVh">{startBtn}</a>
+      </button>
       <div className='absolute h-[60rem] w-[40rem] lg:h-[55rem] lg:w-[200rem] -rotate-[61deg] lg:-rotate-[40deg] rounded-full bg-secondary -z-30 -top-[10rem] -left-[27rem] lg:-top-[45rem] lg:-left-[5rem]'></div>
     </div>
   )
