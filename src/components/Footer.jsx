@@ -9,7 +9,7 @@ const Footer = () => {
             <img src={logoB} className="lg:hidden w-[6.5rem]" alt='logo'/>
             <img src={logoC} className="hidden lg:block w-[23rem]" alt='logo' />
         </div>
-      <div className='flex flex-row mx-auto lg:mr-8 lg:-mt-16'>
+      <div className='flex flex-row mx-auto lg:mr-8 lg:-mt-[6rem]'>
         <a target='_blank' rel="noopener noreferrer" href="https://www.facebook.com/soygiiri" className='lg:w-full lg:h-full px-4 lg:px-6'>
             <img src={facebook} alt="facebook" className='w-[30px] h-[30px] lg:w-[60px] lg:h-[60px]'/>
         </a>
@@ -20,7 +20,7 @@ const Footer = () => {
             <img src={instagram} alt="instagram" className='w-[30px] h-[30px] lg:w-[60px] lg:h-[60px]'/>
         </a>
       </div>
-      <p className='font-pop text-white text-xs mt-4 lg:text-2xl text-center lg:text-left lg:ml-8 lg:-mt-2'>{copy}</p>
+      <p className='font-pop text-white text-xs mt-4 lg:text-2xl text-center lg:text-left lg:ml-8 lg:mt-4'>{copy}</p>
     </div>
   )
 }
